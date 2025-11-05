@@ -602,6 +602,13 @@
                 padding: 2rem 1.5rem;
             }
         }
+		.btn-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+}
+
     </style>
 </head>
 <body>
@@ -627,13 +634,29 @@
             <div class="app-logo">📿</div>
             
             <div class="btn-container">
-                <a href="https://myapplink.com/download.apk" class="btn btn-primary">
-                    <i class="fas fa-download"></i> Download APK
-                </a>
-                <button class="btn btn-secondary" disabled>
-                    <i class="fab fa-google-play"></i> Get on Play Store (Coming Soon)
-                </button>
-            </div>
+
+    <!-- APK -->
+    <a href="https://myapplink.com/download.apk" class="btn btn-primary" target="_blank">
+        <i class="fas fa-download"></i> Download APK
+    </a>
+
+    <!-- Google Drive -->
+    <a href="https://drive.google.com/YOUR_DRIVE_LINK" class="btn btn-primary" target="_blank">
+        🚀 Download (Drive)
+    </a>
+
+    <!-- MediaFire -->
+    <a href="https://www.mediafire.com/YOUR_MEDIAFIRE_LINK" class="btn btn-primary" target="_blank">
+        📦 Download (MediaFire)
+    </a>
+
+    <!-- Online -->
+    <a href="https://erabhishek12.github.io/radha-radha-naam-jaap-/" class="btn btn-secondary" target="_blank">
+        🌐 Use Online Version
+    </a>
+
+</div>
+
             
             <p class="hero-note">Best for devotees — daily naam jap made pure & easy</p>
         </div>
@@ -722,25 +745,45 @@
         </div>
     </section>
 
-    <!-- SECTION 4: APP DOWNLOAD -->
-    <section>
-        <div class="container">
-            <h2 class="section-title">⬇️ Download Now ⬇️</h2>
-            <div class="download-box">
-                <div class="btn-container">
-                    <a href="https://myapplink.com/download.apk" class="btn btn-primary">
-                        <i class="fas fa-download"></i> APK Download
-                    </a>
-                    <button class="btn btn-secondary" disabled>
-                        <i class="fab fa-google-play"></i> Play Store Coming Soon
-                    </button>
-                </div>
-                <div class="download-link">
-                    APK Download Link: https://myapplink.com/download.apk
-                </div>
+  <!-- SECTION 4: APP DOWNLOAD -->
+<section>
+    <div class="container">
+        <h2 class="section-title">⬇️ Download Now ⬇️</h2>
+
+        <div class="download-box">
+
+            <div class="btn-container">
+
+                <!-- Drive -->
+                <a href="https://drive.google.com/YOUR_FILE_LINK" class="btn btn-primary" target="_blank">
+                    🚀 Download (Google Drive)
+                </a>
+
+                <!-- MediaFire -->
+                <a href="https://www.mediafire.com/YOUR_FILE_LINK" class="btn btn-primary" target="_blank">
+                    📦 Download (MediaFire)
+                </a>
+
+                <!-- Online Version -->
+                <a href="https://erabhishek12.github.io/radha-radha-naam-jaap-/" class="btn btn-secondary" target="_blank">
+                    🌐 Use Online Version
+                </a>
+
             </div>
+
+            <div class="download-link">
+                Drive Link: <b>https://drive.google.com/YOUR_FILE_LINK</b>
+            </div>
+            <div class="download-link">
+                MediaFire Link: <b>https://www.mediafire.com/YOUR_FILE_LINK</b>
+            </div>
+            <div class="download-link">
+                Online Version: <b>https://erabhishek12.github.io/radha-radha-naam-jaap-/</b>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- SECTION 5: SPIRITUAL SHOP -->
     <section>
